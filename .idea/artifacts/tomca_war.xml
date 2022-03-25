@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tomca:war">
+    <output-path>$PROJECT_DIR$/tomca/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tomca</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tomca.war">
+      <element id="artifact" artifact-name="tomca:war exploded" />
+    </root>
+  </artifact>
+</component>
